@@ -4,54 +4,49 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/common.css" />
+        <link rel="stylesheet" href="styles/index.css" />
         <title>Index</title>
     </head>
     <body>
-        <div>
+        <div id="main">
             <header>
-                <img
-                    src="/assests/images/logo.png"
-                    alt="logo"
-                    height="100px"
-                    width="150px"
-                />
+                <img class="logo" src="/assests/images/logo.png" alt="logo" />
                 <a href="login.html" target="_blank">Login</a>
             </header>
             <main>
                 <section>
-                    <form action="">
+                    <form class="city-search" action="">
                         <input
                             type="text"
                             placeholder="City"
                             autocomplete="off"
                         />
                     </form>
-                    <a href="list.html">
+                    <div class="city-cards">
+                        <a href="list.html">
+                            <img
+                                class="city-image"
+                                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                                alt=""
+                            />
+                        </a>
                         <img
-                            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                            class="city-image"
+                            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
                             alt=""
-                            height="300px"
-                            width="300px"
                         />
-                    </a>
-                    <img
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-                        alt=""
-                        height="300px"
-                        width="300px"
-                    />
-                    <img
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-                        alt=""
-                        height="300px"
-                        width="300px"
-                    />
-                    <img
-                        src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-                        alt=""
-                        height="300px"
-                        width="300px"
-                    />
+                        <img
+                            class="city-image"
+                            src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+                            alt=""
+                        />
+                        <img
+                            class="city-image"
+                            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                            alt=""
+                        />
+                    </div>
                     <div><a href="#">View More>></a></div>
                 </section>
             </main>
@@ -60,24 +55,21 @@
                 <div>
                     <a href="https://www.facebook.com" target="_blank"
                         ><img
+                            class="social-icons"
                             src="./assests/images/facebook.png"
                             alt=""
-                            height="20px"
-                            width="22px"
                     /></a>
                     <a href="https://www.instagram.com" target="_blank"
                         ><img
+                            class="social-icons"
                             src="./assests/images/instagram.png"
                             alt=""
-                            height="20px"
-                            width="22px"
                     /></a>
                     <a href="https://twitter.com" target="_blank"
                         ><img
+                            class="social-icons"
                             src="./assests/images/twitter.png"
                             alt=""
-                            height="20px"
-                            width="22px"
                     /></a>
                 </div>
                 &#169; 2020 ROOM SEARCH PVT. LTD.

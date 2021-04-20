@@ -4,6 +4,8 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/common.css" />
+        <link rel="stylesheet" href="styles/detail.css" />
         <title>Detail</title>
     </head>
     <body>
@@ -11,10 +13,9 @@
             <header>
                 <a href="index.html">
                     <img
+                        class="logo"
                         src="/assests/images/logo.png"
                         alt="logo"
-                        height="100px"
-                        width="150px"
                     />
                 </a>
                 <a href="login.html" target="_blank">Login</a>
@@ -22,10 +23,11 @@
             <main>
                 <section>
                     <img
+                        class="hotel-images"
                         src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
                         alt="Radisson Blu Hotel"
                     />
-                    <form action="payment.html">
+                    <form class="payment-form" action="payment.html">
                         <label for="adult">Adults: </label>
                         <input
                             type="number"
@@ -67,26 +69,29 @@
                         <br />
                         <input type="submit" value="Book Now" />
                     </form>
-                    <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
-                    <p>5 Star</p>
-                    <p>AMENITIES</p>
-                    <ul>
-                        <li>Room Service</li>
-                        <li>Restaurant</li>
-                        <li>Business Center</li>
-                        <li>Fitness Center</li>
-                        <li>Pool</li>
-                    </ul>
-                    <h5>Description</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Amet voluptates harum necessitatibus laboriosam, ipsum
-                        omnis sapiente atque quo at placeat architecto ad quam,
-                        illum eligendi sit! Quidem nobis nulla inventore facilis
-                        sapiente at, exercitationem, ex est libero similique
-                        illo ratione.
-                    </p>
+                    <div class="hotel-details">
+                        <h2>Radisson Blu Hotel</h2>
+                        <p>RATING</p>
+                        <p>5 Star</p>
+                        <p>AMENITIES</p>
+                        <ul>
+                            <li>Room Service</li>
+                            <li>Restaurant</li>
+                            <li>Business Center</li>
+                            <li>Fitness Center</li>
+                            <li>Pool</li>
+                        </ul>
+                        <h5>Description</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Amet voluptates harum necessitatibus
+                            laboriosam, ipsum omnis sapiente atque quo at
+                            placeat architecto ad quam, illum eligendi sit!
+                            Quidem nobis nulla inventore facilis sapiente at,
+                            exercitationem, ex est libero similique illo
+                            ratione.
+                        </p>
+                    </div>
                 </section>
             </main>
             <footer>
@@ -94,24 +99,21 @@
                 <div>
                     <a href="https://www.facebook.com" target="_blank"
                         ><img
+                            class="social-icons"
                             src="./assests/images/facebook.png"
                             alt=""
-                            height="20px"
-                            width="22px"
                     /></a>
                     <a href="https://www.instagram.com" target="_blank"
                         ><img
+                            class="social-icons"
                             src="./assests/images/instagram.png"
                             alt=""
-                            height="20px"
-                            width="22px"
                     /></a>
                     <a href="https://twitter.com" target="_blank"
                         ><img
+                            class="social-icons"
                             src="./assests/images/twitter.png"
                             alt=""
-                            height="20px"
-                            width="22px"
                     /></a>
                 </div>
                 &#169; 2020 ROOM SEARCH PVT. LTD.

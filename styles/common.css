@@ -1,0 +1,25 @@
+html,
+body,
+#main {
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.social-icons {
+    height: 20px;
+    width: 22px;
+}
+
+header,
+footer {
+    background-color: rosybrown;
+}
