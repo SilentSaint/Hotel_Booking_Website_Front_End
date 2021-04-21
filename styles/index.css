@@ -4,7 +4,6 @@
     padding: 4%;
     border-radius: 25%;
 }
-
 .city-cards {
     margin: 0 15%;
 }
@@ -13,6 +12,25 @@
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
     height: 380px;
     background-position: center;
+    background-position-y: 56%;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-search > input {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 12px;
+    width: 100px;
+}
+
+.view-more {
+    margin: 1rem auto 2rem;
+    text-align: center;
 }

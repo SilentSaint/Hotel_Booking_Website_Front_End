@@ -4,7 +4,29 @@
 }
 
 .hotel-card {
-    margin: 2%;
+    margin: 4% auto;
     background-color: rgb(132, 136, 139);
-    width: 40%;
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul > li {
+    font-weight: bold;
+}
+#list-view > a {
+    margin: 0;
+}
+#list-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#map-view {
+    display: none;
 }
