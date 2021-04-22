@@ -15,22 +15,22 @@
     background-position-y: 56%;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .city-search > input {
-    font-family: inherit;
-    font-size: inherit;
-    border: none;
+    position: absolute;
+    top: 47.11%;
+    left: 36%;
+    border: 1px solid transparent;
     background-color: #f1f1f1;
     padding: 10px;
+    font-size: inherit;
     border-radius: 12px;
-    width: 100px;
+    width: 28%;
+    font-family: inherit;
 }
 
-.view-more {
-    margin: 1rem auto 2rem;
+section:last-child {
     text-align: center;
 }

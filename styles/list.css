@@ -2,31 +2,24 @@
     height: 200px;
     width: 250px;
 }
-
+#map-view {
+    display: none;
+}
 .hotel-card {
-    margin: 4% auto;
+    margin: 2% 4%;
     background-color: rgb(132, 136, 139);
-    width: 80%;
+    width: 40%;
+    display: inline-block;
 }
 
 ul {
-    display: flex;
     padding-left: 0;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 ul > li {
+    display: inline-block;
+    list-style-type: none;
     font-weight: bold;
-}
-#list-view > a {
-    margin: 0;
-}
-#list-view {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-#map-view {
-    display: none;
+    margin-right: 3%;
 }
