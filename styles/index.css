@@ -15,4 +15,22 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.city-search > input {
+    position: absolute;
+    top: 47.11%;
+    left: 36%;
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: inherit;
+    border-radius: 12px;
+    width: 28%;
+    font-family: inherit;
+}
+
+section:last-child {
+    text-align: center;
 }

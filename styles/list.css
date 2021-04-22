@@ -2,9 +2,24 @@
     height: 200px;
     width: 250px;
 }
-
+#map-view {
+    display: none;
+}
 .hotel-card {
-    margin: 2%;
+    margin: 2% 4%;
     background-color: rgb(132, 136, 139);
     width: 40%;
+    display: inline-block;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+ul > li {
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    margin-right: 3%;
 }
