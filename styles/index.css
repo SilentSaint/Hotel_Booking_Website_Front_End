@@ -6,6 +6,7 @@
 }
 .city-cards {
     margin: 0 15%;
+    text-align: center;
 }
 
 .city-search {
@@ -31,6 +32,6 @@
     font-family: inherit;
 }
 
-section:last-child {
+section > p {
     text-align: center;
 }
