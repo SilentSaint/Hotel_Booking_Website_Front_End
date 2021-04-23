@@ -5,11 +5,21 @@ body,
     width: 100%;
 }
 
+input {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+main {
+    margin: 3.75rem 0;
+}
+
 a {
     text-decoration: none;
     color: black;
-    margin: 1rem;
+    margin: 1% 2%;
 }
+
 body {
     margin: 0;
     background-color: #e0e0e0;
@@ -19,6 +29,7 @@ body {
 .logo {
     height: 60px;
     width: 60px;
+    margin-left: 1%;
 }
 
 .social-icons {
@@ -29,7 +40,11 @@ body {
 header,
 footer {
     background-color: rosybrown;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -45,27 +60,27 @@ footer {
     bottom: 0;
 }
 
-header > a:last-of-type {
-    vertical-align: middle;
-    margin-left: 92%;
-}
-
 header > *,
 footer > * {
     vertical-align: middle;
     display: inline-block;
 }
 
-.copyright,
-footer > a:first-child {
-    margin-right: 39%;
-}
 .copyright {
     font-size: 10px;
     vertical-align: bottom;
-    margin-bottom: 0.5rem;
+}
+
+.social-icons-container {
+    margin-right: 2%;
 }
 
 .social-icons-container > a {
     margin: 0;
+}
+
+.cursive {
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
 }

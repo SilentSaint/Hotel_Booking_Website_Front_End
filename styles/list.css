@@ -1,28 +1,47 @@
+.hotel-images-container {
+    max-height: 210px;
+}
+
 .hotel-images {
-    height: 200px;
+    height: 210px;
     width: 250px;
+}
+
+.hotel-details-container {
+    margin-left: 5%;
 }
 #map-view {
     display: none;
 }
+
 .hotel-card {
-    margin: 2% 4%;
-    background-color: rgb(132, 136, 139);
-    width: 40%;
-    display: inline-block;
+    margin: 4% 8%;
+    background-color: rgb(212, 210, 212);
+    width: 80%;
+    display: flex;
 }
 
-#list-view > a {
+#list-view {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2%;
+}
+
+#list-view > a,
+li > a {
     margin: 0;
 }
+
 ul {
     padding-left: 0;
-    text-align: center;
+    margin-top: 5.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul > li {
-    display: inline-block;
     list-style-type: none;
     font-weight: bold;
-    margin-right: 2%;
+    margin: 0 2%;
 }

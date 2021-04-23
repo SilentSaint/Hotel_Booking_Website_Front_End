@@ -26,58 +26,76 @@
             </header>
             <main>
                 <section>
-                    <img
-                        class="hotel-images"
-                        src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                        alt="Radisson Blu Hotel"
-                    />
-                    <form class="payment-form" action="payment.html">
-                        <label for="adult">Adults: </label>
-                        <input
-                            type="number"
-                            name="adult"
-                            id="adult"
-                            min="1"
-                            step="1"
-                            value="1"
-                            required
-                        />
-                        <br />
-                        <label for="name">Name: </label>
-                        <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            autocomplete="off"
-                            required
-                        />
-                        <br />
-                        <label for="from_date">From Date: </label>
-                        <input
-                            type="date"
-                            name="from_date"
-                            id="from_date"
-                            required
-                        />
-                        <br />
-                        <label for="to_date">To Date: </label>
-                        <input
-                            type="date"
-                            name="to_date"
-                            id="to_date"
-                            required
-                        />
-                        <br />
-                        <label for="Total">Total: </label>
-                        <input type="text" name="price" id="price" readonly />
-                        <br />
-                        <input type="submit" value="Book Now" />
-                    </form>
+                    <div class="flex-container">
+                        <div class="hotel-image-container">
+                            <img
+                                class="hotel-images"
+                                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                                alt="Radisson Blu Hotel"
+                            />
+                        </div>
+                        <div class="form-container">
+                            <form class="payment-form" action="payment.html">
+                                <div class="input-group">
+                                    <label for="adult">Adults: </label>
+                                    <input
+                                        type="number"
+                                        name="adult"
+                                        id="adult"
+                                        min="1"
+                                        step="1"
+                                        value="1"
+                                        required
+                                    />
+                                </div>
+                                <div class="input-group">
+                                    <label for="name">Name: </label>
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                                <div class="input-group">
+                                    <label for="from_date">From Date: </label>
+                                    <input
+                                        type="date"
+                                        name="from_date"
+                                        id="from_date"
+                                        required
+                                    />
+                                </div>
+                                <div class="input-group">
+                                    <label for="to_date">To Date: </label>
+                                    <input
+                                        type="date"
+                                        name="to_date"
+                                        id="to_date"
+                                        required
+                                    />
+                                </div>
+                                <div class="input-group">
+                                    <label for="Total">Total: </label>
+                                    <input
+                                        type="text"
+                                        name="price"
+                                        id="price"
+                                        readonly
+                                    />
+                                </div>
+                                <div class="input-group">
+                                    <input type="submit" value="Book Now" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                     <div class="hotel-details">
                         <h2>Radisson Blu Hotel</h2>
-                        <p>RATING</p>
+                        <p class="cursive">Rating</p>
                         <p>5 Star</p>
-                        <p>AMENITIES</p>
+                        <p class="cursive">Amenities</p>
                         <ul>
                             <li>Room Service</li>
                             <li>Restaurant</li>
@@ -85,7 +103,7 @@
                             <li>Fitness Center</li>
                             <li>Pool</li>
                         </ul>
-                        <h5>Description</h5>
+                        <p class="cursive">Description</p>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Amet voluptates harum necessitatibus
