@@ -88,3 +88,11 @@ footer > * {
 .btn-info {
     color: white;
 }
+
+.fas {
+    color: orange;
+}
+
+.fas.not {
+    color: black;
+}
