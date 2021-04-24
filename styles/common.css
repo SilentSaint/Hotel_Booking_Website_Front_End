@@ -84,3 +84,7 @@ footer > * {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.btn-info {
+    color: white;
+}

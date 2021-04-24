@@ -10,26 +10,21 @@
 .hotel-details-container {
     margin-left: 5%;
 }
-#map-view {
-    display: none;
-}
-
 .hotel-card {
-    margin: 4% 8%;
     background-color: rgb(212, 210, 212);
-    width: 80%;
     display: flex;
+    align-items: center;
 }
 
 #list-view {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-flow: row wrap;
     margin-top: 2%;
 }
 
-#list-view > a,
-li > a {
-    margin: 0;
+#list-view > a {
+    margin: 2% 4%;
+    flex-basis: 40%;
 }
 
 ul {
@@ -44,4 +39,13 @@ ul > li {
     list-style-type: none;
     font-weight: bold;
     margin: 0 2%;
+}
+
+li > a {
+    margin: 0;
+}
+
+.hotel-card:hover {
+    background-color: rosybrown;
+    color: black;
 }
