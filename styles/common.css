@@ -1,15 +1,16 @@
-html,
-body,
-#main {
-    height: 100%;
-    width: 100%;
-}
+/* Not setting a height and width of the body or the main to be
+   100% because the default of margin and height of auto are more
+   responsive and i believe its redundant to set the these properties */
+
+/* header styles */
+
 #logo {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
+/* footer styles */
 .social-icons {
-    height: 20px;
-    width: 22px;
+  height: 20px;
+  width: 22px;
 }
