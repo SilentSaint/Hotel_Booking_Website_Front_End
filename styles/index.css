@@ -1,4 +1,42 @@
+/* form styles */
+.city-search {
+  background: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg)
+    50% 56% / cover;
+  height: 380px;
+  position: relative;
+}
+
+input {
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  left: 50%;
+  margin-left: -15%;
+  margin-top: -0.625rem;
+  padding: 0.625rem;
+  position: absolute;
+  top: 50%;
+  width: 30%;
+}
+
+/* city cards styles */
+.city-cards {
+  margin: 0 15%;
+  text-align: center;
+}
+
 .city-images {
+  border-radius: 10%;
   height: 150px;
   width: 150px;
+}
+
+/* using image container since iam using box sizing of border-box */
+.image-container {
+  display: inline-block;
+  padding: 4%;
+}
+
+section > p {
+  text-align: center;
 }

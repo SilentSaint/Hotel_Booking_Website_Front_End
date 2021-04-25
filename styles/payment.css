@@ -1,0 +1,24 @@
+/* hotel information  styles*/
+.hotel-information {
+  background-color: rgb(132, 136, 139);
+  height: 20%;
+  width: 50%;
+  margin: 2% auto;
+}
+
+.hotel-image {
+  margin: 0;
+}
+
+/* bill info styles */
+
+.customer-details,
+.payment-details {
+  margin: 2%;
+}
+
+.payment-details {
+  border: 1px solid black;
+  border-radius: 0.3125rem;
+  padding: 1% 2%;
+}

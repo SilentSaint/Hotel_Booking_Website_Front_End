@@ -1,4 +1,16 @@
+/* hotel image styles */
 .hotel-image {
   height: 500px;
+  margin: 2% 4% 0;
   width: 500px;
+}
+
+/* form styles */
+.payment-form {
+  margin: 0 4% 1%;
+}
+
+/* hotel details styles */
+.hotel-details {
+  margin: 1% 4% 2%;
 }
