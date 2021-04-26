@@ -7,9 +7,16 @@ body {
 }
 
 .loader {
+  animation: loading 1s linear infinite;
   border: 12px solid #f1f1f1;
   border-top-color: #444;
   border-radius: 50%;
   height: 70px;
   width: 70px;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
 }
