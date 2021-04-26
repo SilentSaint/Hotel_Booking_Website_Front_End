@@ -1,6 +1,9 @@
 body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
   margin: 0;
-  overflow: hidden;
 }
 
 .loader {
@@ -8,6 +11,5 @@ body {
   border-top-color: #444;
   border-radius: 50%;
   height: 70px;
-  margin: 20% auto;
   width: 70px;
 }

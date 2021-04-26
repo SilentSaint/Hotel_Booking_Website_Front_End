@@ -23,8 +23,7 @@ a {
    iam implicitly setting them to inherit the
    font properties */
 form > input {
-  font-size: inherit;
-  font-family: inherit;
+  font: inherit;
 }
 
 main {
@@ -34,25 +33,19 @@ main {
 /* header styles */
 header,
 footer {
+  align-items: center;
   background-color: rosybrown;
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   z-index: 10;
 }
 
 header {
   left: 0;
+  padding: 0 2%;
   right: 0;
   top: 0;
-}
-
-header > *,
-footer > * {
-  vertical-align: middle;
-}
-
-/* using margin to space out login and the logo */
-header > a:last-child {
-  margin-left: 92%;
 }
 
 #logo {
@@ -75,12 +68,14 @@ footer > span:first-of-type {
   font-size: 0.625rem;
 }
 
-footer > a:first-child,
-footer > span:first-of-type {
-  margin-right: 39%;
-}
-
 .social-icons {
   height: 20px;
   width: 22px;
+}
+
+/* cursive heading styles */
+.cursive {
+  font-family: cursive;
+  font-weight: bold;
+  text-transform: uppercase;
 }
