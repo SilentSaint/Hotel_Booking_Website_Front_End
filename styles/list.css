@@ -47,4 +47,40 @@ ul > li {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-/* map view styles */
+
+/* media queries */
+
+@media (max-width: 575.5px) {
+  #list-view {
+    display: flex;
+    flex-direction: column;
+  }
+  .hotel-card {
+    flex-direction: column;
+  }
+  .hotel-images {
+    width: 100%;
+  }
+  #map-view {
+    min-width: 100%;
+  }
+
+  #map-view > img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  #list-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #map-view {
+    min-width: 100%;
+  }
+
+  #map-view > img {
+    width: 100%;
+  }
+}

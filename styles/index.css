@@ -33,7 +33,6 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 4% 0;
 }
 
 .city-images {
@@ -45,6 +44,7 @@ input {
 
 .image-container {
   position: relative;
+  margin: 3% 0;
 }
 
 .overlay {
@@ -60,8 +60,24 @@ input {
   position: absolute;
   width: 100%;
   top: 0;
+  transition: 1s;
 }
 
 .image-container:hover > .overlay {
   opacity: 1;
+}
+
+/* Media queries */
+
+@media (max-width: 575.98px) {
+  input {
+    width: 50%;
+  }
+
+  .city-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10% 0;
+  }
 }

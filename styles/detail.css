@@ -65,3 +65,62 @@ input[type="submit"] {
 .hotel-details {
   margin: 1% 4% 2%;
 }
+
+/* media queries  */
+@media (max-width: 575.5px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .hotel-image-container {
+    margin: 1%;
+  }
+
+  .hotel-image {
+    width: 100%;
+  }
+
+  .form-container {
+    border-top: 1px solid black;
+  }
+
+  input {
+    margin-bottom: 5%;
+  }
+
+  .input-group:first-of-type {
+    margin-top: 2%;
+  }
+
+  .payment-form {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  input {
+    width: 100%;
+    padding: 0;
+  }
+
+  .payment-form {
+    margin: 0;
+    padding: 0;
+  }
+  .hotel-image {
+    height: 400px;
+    width: 100%;
+  }
+
+  .hotel-image-container {
+    flex-basis: 60%;
+    margin: 1%;
+    text-align: center;
+  }
+
+  .payment-form {
+    margin: 0;
+    padding: 0;
+  }
+}
