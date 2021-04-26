@@ -87,3 +87,12 @@ footer > span:first-of-type {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* icons styling  */
+.fas {
+  color: orange;
+}
+
+.fas.not {
+  color: black;
+}

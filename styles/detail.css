@@ -18,6 +18,11 @@
   text-align: center;
 }
 
+.carousel-icons {
+  color: rosybrown;
+  font-size: 3.4357rem;
+}
+
 /* form styles */
 .form-container {
   border-left: 1px solid black;
