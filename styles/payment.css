@@ -41,3 +41,37 @@ section {
 .cursive {
   text-transform: capitalize;
 }
+
+/* media queries  */
+
+@media (max-width: 575.98px) {
+  .hotel-information {
+    flex-direction: column;
+    margin: 5% 1% 2%;
+    width: 98%;
+  }
+  .bill-block {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  .pay-now {
+    align-self: center;
+    min-width: max-content;
+  }
+
+  main {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .hotel-information {
+    width: 75%;
+  }
+
+  .bill-block {
+    padding: 2%;
+  }
+}
